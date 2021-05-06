@@ -1,0 +1,48 @@
+#mainDiv{
+    background-color: blue;
+    border: solid green;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+}
+#header{
+    background-color: green;
+    text-align: center;
+}
+#container{
+    margin: 0 auto;
+    width: 95%;
+    background-color: orange;
+    border: solid yellow;
+    height: 356px;
+    padding: 20px;
+}
+/* #container h1{
+    position:absolute;
+    
+} */
+#banker, #player{
+    width: 40%;
+    height: 200px;
+    /* padding: 20px;  */
+    margin-top: 60px;
+    border: solid white; 
+}
+#banker{
+    background-color: tomato;
+    float: left;
+}
+#player{
+    background-color: turquoise;
+    float: right;
+}
+#btn{
+    font-size: x-large;
+    width: 300px;
+    height: 50px;
+}
+#footer{
+    width: 100%;
+    border: solid white;
+}
