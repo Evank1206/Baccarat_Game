@@ -1,4 +1,4 @@
-let arr = [7, 10, 2, 2, 3, 3, 4, 4, 5, 5];
+let arr = [13, 10, 12, 9, 3, 3, 4, 4, 5, 5];
 console.log(arr, " Шинэ array");
 
 let p, b;
@@ -31,11 +31,16 @@ console.log(y.b, " banker's 2nd card");
 let pt = x.p + y.p;
 let bt = x.b + y.b;
 
-if (pt >= 10) {
+if (pt >= 10 && pt <= 19) {
     pt = pt - 10;
+}else if(pt >= 20){
+    pt = pt - 20;
 }
-if (bt >= 10) {
+
+if (bt >= 10 && bt <= 19) {
     bt = bt - 10;
+}else if(bt >= 20){
+    bt = bt - 20;
 }
 console.log("PLAYER'S two card's total : ", pt);
 console.log("BANKER'S two card's total : ", bt);
