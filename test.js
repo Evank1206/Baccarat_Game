@@ -72,3 +72,26 @@ console.log(zz.x + ll.x, zz.y + ll.y);
 
 console.log(arr);
 */
+
+let a,b;
+a = 10;
+b = 8;
+
+if(a === 9 || a === 10 && b === 8){
+    console.log("yes");
+}else{
+    console.log("no");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

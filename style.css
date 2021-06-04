@@ -1,48 +1,94 @@
-#mainDiv{
-    background-color: blue;
-    border: solid green;
-    margin: 0 auto;
-    width: 60%;
-    text-align: center;
-    margin-top: 100px;
+*{
+    margin: 0;
+    background-color: grey;
 }
-#header{
-    background-color: green;
+#box{
+    position:absolute;
+    color: blue;
+    height: 100px;
+    width: 100px;
+    border: solid black;
+    border-radius: 50%;
+    top: 12%;
+    left: 15%;
+    background-color: #fff;
+}
+h2{
     text-align: center;
+    line-height: 101px;
+    background-color: green;
+    border-radius: 60%;
+}
+p{
+    background-color:yellow; 
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5;
+    
+}
+main{
+    position: absolute;
+    height: 25em;
+    width: 65em;
+    background-color: white;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #container{
-    margin: 0 auto;
-    width: 95%;
-    background-color: orange;
-    border: solid yellow;
-    height: 356px;
-    padding: 20px;
-}
-/* #container h1{
-    position:absolute;
-    
-} */
-#banker, #player{
-    width: 40%;
-    height: 200px;
-    /* padding: 20px;  */
-    margin-top: 60px;
-    border: solid white; 
+    background-color: lightblue;
+    height: 70%;
+    /* margin:2% auto; */
 }
 #banker{
-    background-color: tomato;
-    float: left;
-}
-#player{
-    background-color: turquoise;
+    background-color: orange;
+    height: 100%;
+    width: 45%;
     float: right;
 }
-#btn{
-    font-size: x-large;
-    width: 300px;
+#player{
+    background-color: blue;
+    height: 100%;
+    width: 45%;
+}
+#box2{
+    position: absolute;
     height: 50px;
+    width: 73px;
+    /* border-radius: ; */
+    border: solid crimson;
+    border-radius: 51%;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #fff;
 }
-#footer{
-    width: 100%;
-    border: solid white;
+h5{
+    font-size: 25px;
+    line-height: 42px;
+    border-radius: 51%;
+    background-color: #fff;
 }
+#dote{
+    border: solid red;
+    height: 100px;
+    background-color: #fff;
+}
+#dot1{
+    height: 19px;
+    width: 19px;
+    border: solid black;
+    border-radius: 50%;
+    background-color:blue;
+}
+#dot2{
+    height: 19px;
+    width: 19px;
+    border: solid black;
+    border-radius: 50%;
+    background-color:red;
+}
+
+
+
